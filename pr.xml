@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pr SYSTEM "pr.dtd">
+
+<pr>
+    <meta>
+        <key></key>
+        <title>Teste </title>
+        <bdate>20 de janeiro 2021</bdate>
+        <edate>20 de janeiro 2021</edate>
+        <supervisor> José Carlos Ramalho</supervisor>
+    </meta>
+    <team>
+        <member id="pg42824">
+            <name>Diogo Ferreira</name>
+            <email>pg42824@alunos.uminho.pt</email>
+        </member>
+    </team>
+    <abstract>
+        <p>No primeiro exercicio passei á frente a alinea 1 como tal estou a
+        usar os ids default do mongo, simplesmente fiz import do ficheiro tratado.
+        todas as rotas exceto a rota stats
+        </p>
+        <p> No segundo exercicio as respostas ao aquecimento estão escritas num 
+        ficheiro texto, penso ter cumprido todos os outros requesitos pedidos. 
+        A geração do token de acesso está a ser efetuada externamente á aplicação
+        </p>
+        <p>Ambas as aplicações foram feitas utilizando express</p>
+        
+    </abstract>
+    <deliverables>
+        <link url=></link>
+    </deliverables>
+</pr>

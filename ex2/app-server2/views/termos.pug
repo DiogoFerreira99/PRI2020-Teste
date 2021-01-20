@@ -1,0 +1,31 @@
+extends layout
+
+block content
+  h1 Termos Indice
+  
+
+  table.w3-table-all
+        tr
+            th Termo
+            th Titulo
+            th Id
+        each t in info
+            tr
+                td= t.termo
+                td= t.tituloClasse
+                td
+                    a(href=`/classes/${t.idClasse}`) #{t.idClasse}
+  if(info.n)
+        h2 Termos Indice
+        table.w3-table-all
+            tr
+                th Termo
+            each t in info.classe.termosInd
+                tr
+                    td
+                        a(href=`/classes/${t.termo}`) #{t.codigo}
+                    td= t.titulo
+
+  h5 
+        a(href=`/`) Voltar á página inicial
+                
